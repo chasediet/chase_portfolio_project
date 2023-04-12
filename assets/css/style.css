@@ -179,35 +179,35 @@ aside a:hover {
 /* Background images for project boxes */
 
 .bg1 {
-  background-image: url("/assets/images/greenery.jpg");
+  background-image: url("https://codesigner2.s3.us-west-1.amazonaws.com/bootcamp/images/greenery.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .bg2 {
-  background-image: url("/assets/images/bridge.jpg");
+  background-image: url("https://codesigner2.s3.us-west-1.amazonaws.com/bootcamp/images/bridge.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .bg3 {
-  background-image: url("/assets/images/canoe.jpg");
+  background-image: url("https://codesigner2.s3.us-west-1.amazonaws.com/bootcamp/images/canoe.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .bg4 {
-  background-image: url("/assets/images/treehug.jpg");
+  background-image: url("https://codesigner2.s3.us-west-1.amazonaws.com/bootcamp/images/treehug.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .bg5 {
-  background-image: url("/assets/images/cloudy.jpg");
+  background-image: url("https://codesigner2.s3.us-west-1.amazonaws.com/bootcamp/images/cloudy.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
