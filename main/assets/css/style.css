@@ -101,6 +101,8 @@ header h1 {
   margin-bottom: 15px;
 }
 
+/* Width 90% */
+
 .section_width {
   width: 90%;
   display: flex;
