@@ -1,3 +1,4 @@
+/* For use with var */
 :root {
   --dkgrybg: #31343d;
   --tealbg: #91cbc6;
@@ -5,10 +6,13 @@
   --sunset: #fa7d05;
 }
 
+/* Universal selector */
 * {
   font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+
+/* Header position relative flex box so avatar can use absolute */
 
 header {
   position: relative;
@@ -21,6 +25,9 @@ header {
   border-radius: 10px 10px 0px 0px;
 }
 
+/* Top left corner avatar for wider screens- no avatar for small 
+screens.  */
+
 .avatar {
   position: absolute;
   top: 0;
@@ -28,6 +35,8 @@ header {
   width: 200px;
   height: 200px;
 }
+
+/* Nav bar with links */
 
 nav {
   font-size: 1.05em;
@@ -47,6 +56,8 @@ nav ul li a {
   padding-bottom: 5px;
 }
 
+/* Chase Deitrich header */
+
 header h1 {
   color: var(--dkgrybg);
   font-weight: bold;
@@ -58,6 +69,8 @@ header h1 {
   border-radius: 10px;
   margin-left: 50px;
 }
+
+/* Sunset hero banner */
 
 .sunset {
   display: flex;
@@ -81,12 +94,11 @@ header h1 {
   color: var(--dkgrybg);
 }
 
+/* Main area- About me, Work, Contact Me */
+
 .main_sections {
   display: flex;
   margin-bottom: 15px;
-  /* margin-left: 20%; */
-  /* align-items: center;
-  justify-content: right; */
 }
 
 .section_width {
@@ -100,10 +112,7 @@ header h1 {
   padding-right: 20px;
 }
 
-/* .par1 {
-  border: 4px solid transparent;
-  border-radius: 10px;
-} */
+/* Creates a dashed line to the left of content in main area */
 
 .dotted_separator {
   padding-left: 20px;
@@ -115,22 +124,20 @@ header h1 {
   margin-left: auto;
 }
 
-/* .abt_me_par {
-  width: 80%;
-  margin-left: auto;
-} */
-
 .aside_rows {
   gap: 15px;
   display: flex;
   flex-wrap: wrap;
 }
 
-aside div:hover {
+/* Hover effect on aside */
+
+aside a:hover {
   box-shadow: 0 0 10px 3px var(--sunset);
 }
 
-.proj1 {
+.img_lnk {
+  display: flex;
   position: relative;
   flex: 1 0 100%;
   min-height: 200px;
@@ -138,11 +145,20 @@ aside div:hover {
   border: 4px solid var(--tealbg);
   border-radius: 10px;
 }
+/* 
+.proj1 {
+  position: relative;
+  flex: 1 0 100%;
+  min-height: 200px;
+  min-width: 200px;
+  border: 4px solid var(--tealbg);
+  border-radius: 10px;
+} */
 
 .teal-box {
   position: absolute;
   background-color: var(--tealbg);
-  top: 40%;
+  top: 30%;
   width: 20%;
   padding-left: 10px;
   color: var(--dkgrybg);
@@ -157,6 +173,8 @@ aside div:hover {
   border: 4px solid var(--tealbg);
   border-radius: 10px;
 }
+
+/* Background images for project boxes */
 
 .bg1 {
   background-image: url("/assets/images/greenery.jpg");
@@ -235,6 +253,11 @@ aside div:hover {
   text-decoration: none;
   color: var(--sunset);
 }
+
+/* Media query for responsive layout- centers everything and moves
+left titles in the main area to the top.  Also removes dotted
+lines and changes footer bg color to dark grey and changes link
+text color on bottom.*/
 
 @media screen and (max-width: 992px) {
   .avatar {
