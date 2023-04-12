@@ -76,7 +76,7 @@ header h1 {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  background-image: url("/assets/images/b_l_200px_150dpi.jpg");
+  background-image: url("https://codesigner2.s3.us-west-1.amazonaws.com/bootcamp/images/b_l_200px_150dpi.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
