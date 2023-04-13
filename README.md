@@ -2,7 +2,7 @@
 
 ## Description
 
-The goal of this project was to build a portfolio website for myself from scratch. What I build demonstrates the ability to use:
+The goal of this project was to build a portfolio website for myself from scratch. What I built demonstrates the ability to use:
 
 1. CSS Positioning
 2. Flexbox
