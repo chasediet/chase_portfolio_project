@@ -9,7 +9,7 @@ The goal of this project was to build a portfolio website for myself from scratc
 3. Media Queries/Responsive Layouts
 4. CSS Variables
 
-If you mutate the screen size from large to small, you will see that much changes when the display switches to a smaller screen.
+If you resize the screen size from large to small, you will see that much changes when the display switches to a smaller screen.
 
 ## Screenshots
 
